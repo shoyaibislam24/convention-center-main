@@ -1,0 +1,143 @@
+#album{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    
+
+
+  }
+ 
+  .img-div{
+    width: 576px;
+    height: 364px;
+   
+
+  }
+  .img-div img{
+    width: 100%;
+  }
+  .description{
+    width: 530px;
+    height: 218px;
+    margin-left: 15px;
+    position: relative;
+  }
+  .toast{
+    width: 263px;
+    height: 46px;
+    position: absolute;
+    right: -100px;
+    top: 60px;
+    
+  }
+  #pricing{
+    height: 600px;
+
+  }
+  .card-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .card-container{
+    width: 235px;
+    height: 390px;
+    margin: 20px 15px;
+  }
+  .card-container ul li{
+    margin-left: -31px;
+    list-style: none;
+    padding: 2px 30px;
+    font-size: 15px;
+    background-image: url('./other-image/9004700_tick_check_mark_accept_icon\(1\).png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    
+    
+  }
+  .active-card{
+    background-color: #3f87f5;
+    width: 280px;
+    height: 480px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    position: relative;
+   
+  }
+  .hot{
+    background-color: red;
+    width: 40px;
+    height: 28px;
+    text-align: center;
+
+    
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    left: 220px;
+  }
+ @media only screen and (max-width:480px){
+  .carousel-item img{
+      height: 80vh;
+      object-fit: cover;
+  }
+  .carousel-caption{
+      margin-bottom: 20px;
+  }
+  
+  #album{
+    width: 95%;
+    margin-top:-20px;
+    margin-left: 11px;
+
+  }
+  .img-div{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+   
+  }
+  .img-div img{
+    width:98%;
+  }
+  .description{
+    width: 90%;
+    height: auto;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+  }
+  .toast{
+    width: 263px;
+    height: 46px;
+    position: absolute;
+   left: 35px;
+    top: -20px;
+    
+  }
+  .card-main-container{
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .card-container{
+    width: 90%;
+    height: auto;
+    margin: 10px 0px;
+    border: 1px solid black;
+  }
+  .active-card{
+    background-color: #3f87f5;
+    width:90%;
+    height: auto;
+    color: white;
+    margin-bottom: 0px;
+    
+    
+   
+  }
+
+
+}
